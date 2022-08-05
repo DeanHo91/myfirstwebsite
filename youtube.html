@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Youtube.com Clone
+    </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/general.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/video.css">
+    <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <div class="header">
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg">
+        <img class="youtube-logo" src="icons/youtube-logo.svg">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search">
+        <button class="search-button">
+          <img src="icons/search.svg" class="search-icon">
+          <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img src="icons/voice-search-icon.svg" class="voice-search-icon">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+      </div>
+      <div class="right-section">
+        <div class="upload-icon-container">
+          <img src="icons/upload.svg" class="upload-icon">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img src="icons/youtube-apps.svg" class="youtube-apps-icon">
+          <div class="tooltip">YouTube apps</div>
+        </div>
+        <div class="notifications-icon-container">
+          <img src="icons/notifications.svg" class="notifications-icon">
+          <div class="notifications-count">3</div>
+          <div class="tooltip">Notifications</div>
+        </div>
+        <img src="pfp/userpfp.jpg" class="current-user-pfp">
+      </div>
+    </div>
+    <div class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>Youtube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </div>
+    
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=SYc922ntnKM&t=241s">
+            <img class="thumbnail" src="thumbnails/hqdefault.webp">
+          </a>
+          <div class="video-time">20:39</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp">
+            <img src="pfp/unnamed.jpg" class="pfp">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Should I take back my $225,000?
+            </p>
+            <p class="video-author">
+              Linus Tech Tips &#10003;
+            </p>
+            <p class="video-stats">
+              1.2 million views &#183; 12 hours ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=3ma3yXXc3V8">
+            <img class="thumbnail" src="thumbnails/hq720.webp">
+          </a>
+          <div class="video-time">1:15:01</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp">
+            <img src="pfp/unnamed (1).jpg" class="pfp">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Chicago 4K - Sunset Drive - Driving Downtown
+            </p>
+            <p class="video-author">
+              J Utah
+            </p>
+            <p class="video-stats">
+              3.1 million views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+        
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=JaUCiKTNBxQ">
+            <img class="thumbnail" src="thumbnails/hq721.webp">
+          </a>
+          <div class="video-time">6:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp">
+            <img src="pfp/unnamed1.jpg" class="pfp">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              A Day In The Life Of Sundar Pichai (Google's CEO)
+            </p>
+            <p class="video-author">
+              Simply Tech &#10003;
+            </p>
+            <p class="video-stats">
+              6 million views &#183; 11 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=b10pVtUj7QQ">
+            <img class="thumbnail" src="thumbnails/hq722.webp">
+          </a>
+          <div class="video-time">10:19</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp">
+            <img src="pfp/unnamed2.jpg" class="pfp">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              It's Impossible to Spend $10 in this Country!
+            </p>
+            <p class="video-author">
+              PPPeter &#10003;
+            </p>
+            <p class="video-stats">
+              5.2 million views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=3810pFPFf0A&t=68s">
+            <img class="thumbnail" src="thumbnails/hq723.webp">
+          </a>
+          <div class="video-time">25:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp">
+            <img src="pfp/unnamed3.jpg" class="pfp">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Is the 2022 Honda Civic Hatchback a BETTER car than a Toyota Corolla ?
+            </p>
+            <p class="video-author">
+              Raiti's Rides
+            </p>
+            <p class="video-stats">
+              254 N views &#183; 9 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=veAR0DUI-b4">
+            <img class="thumbnail" src="thumbnails/hq724.webp">
+          </a>
+          <div class="video-time">21:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp">
+            <img src="pfp/unnamed4.jpg" class="pfp">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              How to get your first tech job after college
+            </p>
+            <p class="video-author">
+              mayuko &#10003;
+            </p>
+            <p class="video-stats">
+              64 N views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=SYc922ntnKM&t=241s">
+            <img class="thumbnail" src="thumbnails/hq725.webp">
+          </a>
+          <div class="video-time">13:30</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp">
+            <img src="pfp/unnamed5.jpg" class="pfp">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              European International Rail SUCKS, Here's Why
+            </p>
+            <p class="video-author">
+              Adam Something &#10003;
+            </p>
+            <p class="video-stats">
+              465 N views &#183; 4 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=SYc922ntnKM&t=241s">
+            <img class="thumbnail" src="thumbnails/hq726.webp">
+          </a>
+          <div class="video-time">20:39</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp">
+            <img src="pfp/unnamed6.jpg" class="pfp">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              The Final 61.5 Hours of Mac Miller
+            </p>
+            <p class="video-author">
+              SunnyV2 &#10003;
+            </p>
+            <p class="video-stats">
+              4.3 million views &#183; 8 months ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=TSlXL7wSyr4">
+            <img class="thumbnail" src="thumbnails/hq727.webp">
+          </a>
+          <div class="video-time">26:37</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp">
+            <img src="pfp/unnamed7.jpg" class="pfp">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              What's The Worst Thing You've Had To Do At Work? (r/AskReddit)
+            </p>
+            <p class="video-author">
+              UE Stories &#10003;
+            </p>
+            <p class="video-stats">
+              124 N views &#183; 2 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=WZeaQwvwc8s">
+            <img class="thumbnail" src="thumbnails/hq728.webp">
+          </a>
+          <div class="video-time">3:28</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp">
+            <img src="pfp/unnamed8.jpg" class="pfp">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Apple's M Chips: Explained
+            </p>
+            <p class="video-author">
+              Apple Explained &#10003;
+            </p>
+            <p class="video-stats">
+              99 N views &#183; 10 days ago
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=JXeJANDKwDc">
+            <img class="thumbnail" src="thumbnails/hq729.webp">
+          </a>
+          <div class="video-time">9:36</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp">
+            <img src="pfp/unnamed9.jpg" class="pfp">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              What Are You Doing With Your Life? The Tail End
+            </p>
+            <p class="video-author">
+              Kurzgesagt – In a Nutshell &#10003;
+            </p>
+            <p class="video-stats">
+              8.3 million views &#183; 1 year ago
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <a href="https://www.youtube.com/watch?v=pQN-pnXPaVg">
+            <img class="thumbnail" src="thumbnails/hq730.webp">
+          </a>
+          <div class="video-time">2:02:32</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-pfp">
+            <img src="pfp/unnamed10.jpg" class="pfp">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              HTML Full Course - Build a Website Tutorial
+            </p>
+            <p class="video-author">
+              freeCodeCamp.org &#10003;
+            </p>
+            <p class="video-stats">
+              5.9 million views &#183; 3 years ago
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    
+  </body>
+</html>
